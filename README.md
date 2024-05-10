@@ -1,4 +1,5 @@
 # Non official [fusion brain](https://fusionbrain.ai/) API client.
+[![NuGet](https://img.shields.io/nuget/vpre/FusionBrain.svg)](https://www.nuget.org/packages/FusionBrain)
 
 ___
 

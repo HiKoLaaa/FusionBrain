@@ -5,20 +5,27 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>FusionBrain</RootNamespace>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>HiKoLaaa</Authors>
+        <Title>Fusion brain API client</Title>
+        <Description>API client for fusion brain image generator</Description>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RepositoryUrl>https://github.com/HiKoLaaa/FusionBrain</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Copyright>Copyright (c) Nikolai Kreshchuk 2024</Copyright>
+        <PackageProjectUrl>https://github.com/HiKoLaaa/FusionBrain</PackageProjectUrl>
+        <PackageTags>fusion, brain, ai, image, generation</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1"/>
-        <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
     </ItemGroup>
 
     <ItemGroup>
-        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
-        <None Include="..\..\LICENSE" Pack="true" PackagePath="\"/>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 </Project>
